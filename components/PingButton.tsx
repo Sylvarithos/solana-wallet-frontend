@@ -36,7 +36,7 @@ export const PingButton: FC = () => {
 
 	return (
 		<div className={styles.buttonContainer} onClick={onClick}>
-			<button className={styles.button}>Ping!</button>
+			<<>
 		</div>
 	)
 }
