@@ -31,6 +31,7 @@ export const PingButton: FC = () => {
 		transaction.add(instruction)
 		sendTransaction(transaction, connection).then(sig => {
 			console.log(sig)
+			console.log(sig)
 		})
 	}
 
